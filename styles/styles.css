@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.profilePicture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+.firstTitle {
+  color: #a57a0d;
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 100;
+  margin-top: 40px;
+  border: solid;
+  padding: 5px;
+}
+.mainContent {
+  display: flex;
+  width: 60%;
+  margin: 0 20%;
+}
+.leftBloc {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: right;
+}
+.rightBloc {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+h2 {
+  color: #a57a0d;
+  text-transform: uppercase;
+}
+.text {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.lign {
+  color: #a57a0d;
+  width: 3px;
+  size: 3px;
+}
+
+.listeComp {
+  list-style: disclosure-closed;
+}
+.listContact {
+  display: flex;
+  justify-content: center; /* Aligne les éléments au centre horizontalement */
+  padding: 0;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.listContact li {
+  width: 100%;
+  height: 25%;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 1%;
+}
+.contact {
+  margin: 0 20%;
+  background-color: brown;
+  color: white;
+}
+.progress-bar {
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress1 {
+  height: 10px;
+  background-color: #a57a0d;
+  width: 85%; /* Couleur de la barre de progression */
+}
+.progress2 {
+  height: 10px;
+  background-color: #a57a0d;
+  width: 60%; /* Couleur de la barre de progression */
+}
+.progress3 {
+  height: 10px;
+  background-color: #a57a0d;
+  width: 77%; /* Couleur de la barre de progression */
+}
+
